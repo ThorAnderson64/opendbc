@@ -131,6 +131,10 @@ class CAR(Platforms):
     [SubaruCarDocs("Subaru Ascent 2019-21", "All")],
     CarSpecs(mass=2031, wheelbase=2.89, steerRatio=13.5),
   )
+  SUBARU_ASCENT = SubaruPlatformConfig(
+    [SubaruCarDocs("Subaru Ascent 2022", "All", car_parts=CarParts.common([CarHarness.subaru_a]))],
+    CarSpecs(mass=1836, wheelbase=2.700000047683716, steerRatio=13.0),
+  )
   SUBARU_OUTBACK = SubaruGen2PlatformConfig(
     [SubaruCarDocs("Subaru Outback 2020-22", "All", car_parts=CarParts.common([CarHarness.subaru_b]))],
     CarSpecs(mass=1568, wheelbase=2.67, steerRatio=17),
