@@ -33,6 +33,26 @@ FW_VERSIONS = {
       b'\x01\xfe\xfa\x00\x00',
     ],
   },
+  CAR.SUBARU_ASCENT_2022: {
+    (Ecu.abs, 0x7b0, None): [
+      b'\xa5 #\x03\x00',
+    ],
+    (Ecu.engine, 0x7e0, None): [
+      b'\xe4,\xa0P\x07',
+    ],
+    (Ecu.eps, 0x746, None): [
+      b'\x05\xc0\xd0\x00',
+    ],
+    (Ecu.fwdCamera, 0x787, None): [
+      b'\x00\x00e~\x00\x00\x00\x00',
+    ],
+    (Ecu.fwdRadar, 0x7d0, None): [
+      b'\xf1\x00\x00\x00\x02',
+    ],
+    (Ecu.transmission, 0x7e1, None): [
+      b'\x03\xfe\xf6\x00\x00',
+    ],
+  },
   CAR.SUBARU_ASCENT_2023: {
     (Ecu.abs, 0x7b0, None): [
       b'\xa5 #\x03\x00',
